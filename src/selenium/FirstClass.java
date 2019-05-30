@@ -43,6 +43,11 @@ WebElement e1 =driver.findElement(By.xpath("//*[@id=\"welcomecollect_english\"]/
 e1.click();
 
 
+
+
+driver.close();
+
+driver.quit();
      			
 	}
 
